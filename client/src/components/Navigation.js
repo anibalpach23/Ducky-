@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 import SignOutButton from './SignOut';
 import * as routes from '../constants/routes';
-import Navbar from '../../node_modules/react-materialize/lib/Navbar';
+import  Navbar  from '../../node_modules/react-materialize/lib/Navbar';
+
 
 
 const Navigation = ({authUser}) =>
@@ -15,7 +16,7 @@ const Navigation = ({authUser}) =>
 </div>
 
 const NavigationAuth = () =>
-    <Navbar brand='logo' className='center-align'>
+    <Navbar brand='logo' right>
         <ul>
             <li><Link to={routes.LANDING}>Landing</Link></li>
             <li><Link to={routes.HOME}>Home</Link></li>
