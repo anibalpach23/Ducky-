@@ -5,3 +5,12 @@
     width: px;
     height: px;
 }
+.duckPic {
+    padding-top: 5%;
+    padding: 40%;
+    border-style: solid;
+}
+
+.chatHistory{
+    padding-bottom: 30%;
+}
