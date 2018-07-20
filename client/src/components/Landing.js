@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Card, CardTitle, Row, Col } from 'react-materialize';
+import { } from "materialize-css";
+import { Col, Row, Card, CardTitle } from "react-materialize";
 import './Landing.css';
 
 
@@ -14,30 +15,57 @@ const LandingPage = () =>
         </Row>
         <Row className="DuckCard">
         
-        <Col s={3} className='Card'>
-            <Card className='small'
-                    header={<CardTitle image='./Images/JavascriptDuck.jpg'>Javascript Duck</CardTitle>}
-                    actions={[<a href='#'>Ask Javascript Duck!</a>]}>
-                    Javascript Duck is very knowledgeable in Javascript. 
-            </Card>
-        </Col>
+        <div className="col s3">
+            <div className="card">
+                <div className="card-image">
+                    <img src={require("./Images/CssDuck.jpg")} />
+                    <span className="card-title">CSS Duck</span>
+                </div>
+                <div className="card-content">
+                    <p>CSS Duck loves fashion and helping people style their websites.</p>
+                </div>
+                <div className="card-action">
+                <a href="#">This is a link</a>
+                </div>
+                </div>
+            </div>
 
-        <Col s={3} className='Card'>
-                <Card className='small'
-                    header={<CardTitle image={"./Images/JavascriptDuck.jpg"}>Javascript Duck</CardTitle>}
-                    actions={[<a href='#'>Ask Javascript Duck!</a>]}>
-                    Javascript Duck is very knowledgeable in Javascript. 
-                </Card>
-        </Col>
+            <div className="col s3">
+                <div className="card">
+                    <div className="card-image cssDuck">
+                        <img src={require("./Images/CssDuck.jpg")} />
+                        <span className="card-title">CSS Duck</span>
+                    </div>
+                    <div className="card-content">
+                        <p>CSS Duck loves fashion and helping people style their websites.</p>
+                    </div>
+                    <div className="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+        </div>
 
-        <Col s={3} className='Card'>
-            <Card className='small'
-                header={<CardTitle image={"./Images/JavascriptDuck.jpg"}>Javascript Duck</CardTitle>}
-                actions={[<a href='#'>Ask Javascript Duck!</a>]}>
-                Javascript Duck is very knowledgeable in Javascript. 
-            </Card>
-        </Col>
-       
+
+
+                <div className="col s3">
+                    <div className="card">
+                        <div className="card-image">
+                            <img src={require("./Images/JavascriptDuck.jpg")} />
+                            <span className="card-title">Javascript Duck</span>
+                        </div>
+                        <div className="card-content">
+                            <p>Javscript Duck knows Javascript. Don't get it confused for Java.
+                                He doesn't like coffee.
+                            </p>
+                        </div>
+                        <div className="card-action">
+                            <a href="./JavascriptDuck">Visit Javascript Duck!</a>
+                        </div>
+                    </div>
+                </div>
+
+
+        
         </Row>
     </div>
 

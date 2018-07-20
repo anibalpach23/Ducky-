@@ -11,11 +11,10 @@ import SignInPage from './SignIn';
 import PasswordForgetPage from './PasswordForget';
 import HomePage from './Home';
 import AccountPage from './Account';
-import JSDuck from './JavascriptDuck';
 
 import * as routes from '../constants/routes';
 import { firebase } from '../firebase';
-import JDuck from './JavascriptDuck';
+import JSDuck from './JavascriptDuck';
 
 class App extends Component {
   constructor(props) {
@@ -76,7 +75,7 @@ class App extends Component {
 
           <Route
           exact path={routes.JSDUCK}
-          component={() => <JDuck />}
+          component={() => <JSDuck />}
           />
 
         </div>

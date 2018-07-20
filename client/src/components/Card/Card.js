@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from 'react-materialize';
+import { Card } from 'react-materialize';
 import "./Card.css";
 
 const Card = props => (
