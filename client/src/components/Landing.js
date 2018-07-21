@@ -18,14 +18,14 @@ const LandingPage = () =>
         <div className="col s3">
             <div className="card">
                 <div className="card-image">
-                    <img src={require("./Images/CssDuck.jpg")} />
-                    <span className="card-title">CSS Duck</span>
+                    <img src={require("./Images/HTMLDuck.jpg")} />
+                    <span className="card-title">HTML Duck</span>
                 </div>
                 <div className="card-content">
-                    <p>CSS Duck loves fashion and helping people style their websites.</p>
+                    <p>HTML Duck helps get the foundation ready.</p>
                 </div>
                 <div className="card-action">
-                <a href="#">This is a link</a>
+                <a href="./HTMLDuck">This is a link</a>
                 </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@ const LandingPage = () =>
                         <p>CSS Duck loves fashion and helping people style their websites.</p>
                     </div>
                     <div className="card-action">
-                        <a href="#">This is a link</a>
+                        <a href="./CSSDuck">This is a link</a>
                     </div>
                 </div>
         </div>

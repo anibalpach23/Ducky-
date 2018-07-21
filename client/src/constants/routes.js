@@ -5,4 +5,6 @@ export const HOME = '/home';
 export const ACCOUNT = '/account';
 export const PASSWORD_FORGET = '/pw-forget';
 export const JSDUCK = '/javascriptduck';
+export const HTMLDUCK = '/htmlduck';
+export const CSSDUCK = '/cssduck';
 

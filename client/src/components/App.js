@@ -15,6 +15,8 @@ import AccountPage from './Account';
 import * as routes from '../constants/routes';
 import { firebase } from '../firebase';
 import JSDuck from './JavascriptDuck';
+import HTMLDuck from './HTMLDuck';
+import CSSDuck from './CSSDuck';
 
 class App extends Component {
   constructor(props) {
@@ -77,6 +79,17 @@ class App extends Component {
           exact path={routes.JSDUCK}
           component={() => <JSDuck />}
           />
+
+           <Route
+          exact path={routes.HTMLDUCK}
+          component={() => <HTMLDuck />}
+          />
+
+           <Route
+          exact path={routes.CSSDUCK}
+          component={() => <CSSDuck />}
+          />
+
 
         </div>
       </Router>
