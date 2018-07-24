@@ -6,14 +6,26 @@ import './Landing.css';
 
 const LandingPage = () =>
     <div>
+        {/* Banner Area to explain Ducky Page. */}
         <Row>
-            <Col s={3} className='Empty'></Col>
-                <Col s={5} className='Title'>
-                    <h1>Choose Your Ducky!</h1>
-                </Col>
-            <Col s={4} className='Empty'></Col>
+            <div className="hero-image">
+                <div className="hero-text">
+                    <h1>Ask a Duck</h1>
+                    <p>
+                    These ducks are specialists and can help you with your web development needs! We have three ducks that you can
+                    ask about HTML, CSS, and Javascript. 
+                    </p>
+                </div>
+            </div>
         </Row>
-        <Row className="DuckCard">
+        
+
+        <Row>
+                <div  className='Title center-align'>
+                    <h3>Choose Your Ducky!</h3>
+                </div>
+        </Row>
+        <Row className="DuckCard center-align">
         
         <div className="col s3">
             <div className="card">
