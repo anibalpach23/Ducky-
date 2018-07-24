@@ -9,7 +9,7 @@ const LandingPage = () =>
         {/* Banner Area to explain Ducky Page. */}
         <Row>
             <div className="hero-image">
-                <div className="hero-text">
+                <div className="center-align hero-text">
                     <h1>Ask a Duck</h1>
                     <p>
                     These ducks are specialists and can help you with your web development needs! We have three ducks that you can

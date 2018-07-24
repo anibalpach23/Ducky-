@@ -29,8 +29,9 @@
 }
 
 .hero-text{
-    color: black;
+    color:white;
     top: 50%;
+    left: 15%;
     bottom: 50%;
     text-align: center;
     position: absolute;
