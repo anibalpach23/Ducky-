@@ -29,7 +29,7 @@
 }
 
 .hero-text{
-    color:white;
+    color: #e55b5b;
     top: 50%;
     left: 15%;
     bottom: 50%;
@@ -44,15 +44,22 @@
 .containerChat{
     padding-top: 50px;
     padding-bottom: 575px;
-    background-color: grey;
-    opacity: 0.1;
+    background-color: #cccccc;
     border-radius: 5%;
 }
 
 .ChatDuckPic{
-    height: 500px;
+    height: 400px;
     width: auto;
     position: relative;
     padding-top: 5%;
     border-radius: 50%;
+}
+
+.lineChat{
+    color: black !important;
+    top: 100%;
+    width: 75%;
+    bottom: 10%;
+    align-self: left;
 }
