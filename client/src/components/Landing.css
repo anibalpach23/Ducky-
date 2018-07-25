@@ -58,8 +58,11 @@
 
 .lineChat{
     color: black !important;
-    top: 100%;
-    width: 75%;
-    bottom: 10%;
+    left: 25%;
     align-self: left;
+}
+
+.submitButton{
+    top: 100%;
+    bottom: 50%;
 }

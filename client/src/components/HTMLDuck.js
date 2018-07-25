@@ -26,9 +26,14 @@ const HTMLDuck = () =>
         </div>
     </div>
     <div className="row">
-        <div className="col s6 input-field lineChat">
+        <div className="col s6"></div>
+        <div className="col s4 input-field lineChat">
             <textarea id="textarea1" class="materialize-textarea" placeholder="Ask your question"></textarea>
         </div>
+        <div className="col s2">
+            <a class="waves-effect waves-light btn submitButton">button</a>
+        </div>
+    
     </div>
 </div>
 
